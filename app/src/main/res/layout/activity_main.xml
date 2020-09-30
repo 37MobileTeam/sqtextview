@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.sq.mobile.sqtextview.CollapsedTextView
+        android:id="@+id/content1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="5dp"
+        android:textColor="@color/color_0f0f0f"
+        android:textSize="14sp"
+        app:collapsedLines="3"
+        app:collapsedText="收起"
+        app:expandedText="全文"
+        app:tipsColor="@color/color_FFBA62" />
+
+
+
+
+    <com.sq.mobile.sqtextview.CollapsedTextView
+        android:id="@+id/content2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="5dp"
+        android:textColor="@color/color_0f0f0f"
+        android:textSize="14sp"
+        app:collapsedLines="3"
+        app:collapsedText="收起"
+        app:expandedText="全文"
+        app:tipsColor="@color/color_FFBA62" />
+
+
+
+
+
+
+</LinearLayout>
